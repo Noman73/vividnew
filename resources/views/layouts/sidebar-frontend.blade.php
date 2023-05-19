@@ -12,7 +12,7 @@
           <img src="{{$image}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">{{Auth::user()->username}}</a>
+          <a href="javascript:void(0)" class="d-block">{{Auth::user()->username}}</a>
         </div>
       </div>
       <!-- Sidebar Menu -->
@@ -29,7 +29,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-user-alt"></i>
               <p>
                 Profile
@@ -58,7 +58,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-user-alt"></i>
               <p>
                 My Team
@@ -75,7 +75,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-user-alt"></i>
               <p>
                 Statement
@@ -134,7 +134,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-users"></i>
               <p>
                 Register
@@ -157,7 +157,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-money-check-alt"></i>
               <p>
                 Widthdraw
@@ -188,7 +188,7 @@
             </a>
           </li>
            <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-money-check-alt"></i>
               <p>
                 Transfer
@@ -248,7 +248,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-money-check-alt"></i>
               <p>
                 Purchase
@@ -279,7 +279,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                  Trust Fund
