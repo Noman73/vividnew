@@ -105,7 +105,7 @@
                         <div class="mb-3 row">
                             <label for="adress" class="col-sm-2 col-form-label">Vp</label>
                             <div class="col-sm-10">
-                                <input type="number" class="form-control" id="vp" name="vp" placeholder="Enter Vp" value="{{ $data->vp }}">
+                                <input type="text" class="form-control" id="vp" name="vp" placeholder="Enter Vp" value="{{ $data->vp }}">
                             </div>
                         </div>
 

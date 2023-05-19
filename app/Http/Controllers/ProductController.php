@@ -62,7 +62,7 @@ class ProductController extends Controller
             'product_name' => 'required|max:100',
             'purchase_rate' => 'required|numeric',
             'sales_rate' => 'required|numeric',
-            'vp' => 'required|numeric',
+            'vp' => 'required|regex:/^([0-9.]+)$/',
             'size' => 'required',
         ]);
         //for image
