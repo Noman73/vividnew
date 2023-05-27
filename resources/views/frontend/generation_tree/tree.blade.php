@@ -2,7 +2,7 @@
 @section('content')
 @section('link')
     @php
-    $image = asset('storage/man/man.png');
+    $image = asset('images/man.png');
     $owner_image = $left->image ?? false;
     $owner_image = $owner_image ? asset('storage/fuser/' . $owner->image) : $image;
     $left_image = $left->image ?? false;

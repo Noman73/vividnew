@@ -105550,8 +105550,8 @@ window.axios.defaults.baseURL = 'https://info.vividcosmic.com/';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! G:\xampp\htdocs\vividcos\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! G:\xampp\htdocs\vividcos\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\vividnew\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\vividnew\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
