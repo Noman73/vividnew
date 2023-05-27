@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('frontlogin')}}/css/util.css">
 	<link rel="stylesheet" type="text/css" href="{{asset('frontlogin')}}/css/main.css">
 <!--===============================================================================================-->
-  <link rel="shortcut icon" href="{{asset('storage/logo/logo.jpg')}}" type="image/icon">
+  <link rel="shortcut icon" href="{{asset('images/logo.png')}}" type="image/icon">
 </head>
 <body>
 	
@@ -28,7 +28,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="{{asset('storage/logo/Logo.jpg')}}" alt="IMG">
+					<img src="{{asset('images/logo.png')}}" alt="IMG">
 				</div>
 
 				<form action="{{URL::to('user/login')}}" method="POST" class="login100-form validate-form">
