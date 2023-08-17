@@ -12,11 +12,11 @@ class ProfileController extends Controller
     }
     public function Profile(){
        $vp=Invoice::where('fuser_id',auth()->user()->id)->sum('vp');
-       if($vp>=10 and  $vp<60){
+       if($vp>=10 and  $vp<20){
            $package="Rising";
-       }elseif($vp>49 and $vp<=124){
+       }elseif($vp>=20 and $vp<50){
            $package="Basic";
-       }elseif($vp>=125){
+       }elseif($vp>=50){
            $package="Professional";
        }else{
            $package="Inactive";

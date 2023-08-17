@@ -102,14 +102,14 @@ class InvoiceController extends Controller
             case $total_vp<10:
                 return 0;
                 break;
-            case $total_vp<60:
+            case $total_vp<20:
                 return 10;
                 break;
-            case $total_vp<125:
+            case $total_vp<50:
                 return 15;
                 break;
-            case $total_vp>=125:
-                return 20;
+            case $total_vp>=50:
+                return 30;
                 break;
             default:
                 return 0;
